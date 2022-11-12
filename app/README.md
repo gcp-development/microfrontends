@@ -1,10 +1,12 @@
 
+To create a similar project.
 
+```bash
 nvm use 16.14.1
 npx create-react-app app --template typescript
 cd app
 npm i --save-dev @chakra-ui/react @emotion/react @emotion/styled framer-motion webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader
-
+```
 
 ## Available Scripts
 
