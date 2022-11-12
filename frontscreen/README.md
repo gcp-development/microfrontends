@@ -1,3 +1,10 @@
+```bash
+nvm use 16.14.1
+npx create-react-app frontscreen --template typescript
+cd frontscreen
+npm i --save-dev @chakra-ui/react @emotion/react @emotion/styled framer-motion webpack webpack-cli html-webpack-plugin webpack-dev-server ts-loader
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
