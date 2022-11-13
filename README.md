@@ -33,7 +33,11 @@ We need to familiarize ourself with some terminology when using Webpack Module F
  <li><b>Vendor Federation</b>: Vendor Federation is an important feature that aids in solving a significant performance issue in micro-frontend architecture. Regardless of where the modules are loaded from, it enables all or part of a remote or host’s npm modules to share at runtime declaratively.</li>
 </ul>
 
-PoC(Proof of Concept) source code:
+<h2>Conclusion</h2>
+
+Webpack Module Federation is a feature that enables loading separately compiled applications at runtime and allows sharing of common dependencies.It is a highly beneficial approch to consider, especially with its scalability in sharing code among independent applications, which is bound to improve the overall performance.
+
+<h3>PoC(Proof of Concept) source code:</h3>
 <ul>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/app" target="_blank">app(Host App)</a></li>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/backscreen" target="_blank">backscreen(Micro App)</a></li>
