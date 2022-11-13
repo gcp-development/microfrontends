@@ -41,8 +41,8 @@ We need to familiarize ourself with some terminology when using Webpack Module F
 
 <h2>Conclusion</h2>
 
-Webpack Module Federation is a feature that enables loading separately compiled applications at runtime and allows sharing of common dependencies.It is a highly beneficial approch to consider, especially with its scalability in sharing code among independent applications, which is bound to improve the overall performance.
-Making the Module Federation plugin the perfect candidate to implement a Micro Frontends architecture.
+Webpack Module Federation plugin is a feature that enables loading separately compiled applications at runtime and allows sharing of common dependencies.It is a highly beneficial approch to consider, especially with its scalability in sharing code among independent applications, which is bound to improve the overall performance.
+Making the Module Federation plugin the perfect candidate to implement a Micro-Frontends architecture.
 
 <hr>
 
@@ -58,3 +58,5 @@ This PoC was developed using [React TypeScript](https://www.typescriptlang.org/d
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
 [Why webpack](https://webpack.js.org/concepts/why-webpack/)
+[Module-Federation examples](https://github.com/module-federation/module-federation-examples)
+[Webpack 5 Module Federation a game changer in javascript architecture](https://indepth.dev/posts/1173/webpack-5-module-federation-a-game-changer-in-javascript-architecture)
