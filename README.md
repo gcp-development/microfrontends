@@ -32,6 +32,7 @@ In summary:
 <br>
 <img src="https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png"></img>
 <br>
+ 
 <p align="left">
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
