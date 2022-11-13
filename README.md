@@ -26,12 +26,18 @@ This enables the following:
 ![image](https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png)
 
 PoC(Proof of Concept) source code:
- <ul>
+<ul>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/app" target="_blank">app(Host App)</a></li>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/backscreen" target="_blank">backscreen(Micro App)</a></li>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/frontscreen" target="_blank">frontscreen(Micro App)</a></li>
 </ul> 
 
+Terminology
+<ul>
+ <li>A host: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
+ <li>A remote: another Webpack build, where part of it is being consumed by a “host”</li>
+ <li>Bidirectional-hosts: when a bundle or Webpack build can work as a host or as a remote. Either consuming other applications or being consumed by others — at runtime.</li>
+</ul>
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
 [Why webpack](https://webpack.js.org/concepts/why-webpack/)
