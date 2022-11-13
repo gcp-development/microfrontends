@@ -53,6 +53,8 @@ The Module Federation plugin is the perfect candidate to implement a Micro Front
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/frontscreen" target="_blank">frontscreen(Micro App)</a></li>
 </ul> 
 
+This PoC was developed using [React TypeScript](https://www.typescriptlang.org/docs/handbook/react.html).
+
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
 [Why webpack](https://webpack.js.org/concepts/why-webpack/)
