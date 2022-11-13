@@ -33,4 +33,5 @@ PoC(Proof of Concept) source code:
 </ul> 
 
 References:<br>
-[Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)
+[Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
+[Why webpack](https://webpack.js.org/concepts/why-webpack/)
