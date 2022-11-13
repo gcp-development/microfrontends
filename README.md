@@ -26,9 +26,10 @@ This enables the following:
 ![image](https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png)
 
 <ul>
- <li>A host: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
- <li>A remote: another Webpack build, where part of it is being consumed by a “host”</li>
- <li>Bidirectional-hosts: when a bundle or Webpack build can work as a host or as a remote. Either consuming other applications or being consumed by others — at runtime.</li>
+ <li><b>A host</b>: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
+ <li><b>A remote</b>: another Webpack build, where part of it is being consumed by a “host”</li>
+ <li><b>Bidirectional-hosts</b>: when a bundle or Webpack build can work as a host or as a remote. Either consuming other applications or being consumed by others — at runtime.</li>
+ <li><b>Vendor Federation</b>: Vendor Federation is an important feature that aids in solving a significant performance issue in micro-frontend architecture. Regardless of where the modules are loaded from, it enables all or part of a remote or host’s npm modules to share at runtime declaratively.</li>
 </ul>
 
 PoC(Proof of Concept) source code:
