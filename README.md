@@ -57,6 +57,6 @@ This PoC was developed using [React TypeScript](https://www.typescriptlang.org/d
 
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
-[Why webpack](https://webpack.js.org/concepts/why-webpack/)
-[Module-Federation examples](https://github.com/module-federation/module-federation-examples)
-[Webpack 5 Module Federation a game changer in javascript architecture](https://indepth.dev/posts/1173/webpack-5-module-federation-a-game-changer-in-javascript-architecture)
+[Why webpack](https://webpack.js.org/concepts/why-webpack/)<br>
+[Module-Federation examples](https://github.com/module-federation/module-federation-examples)<br>
+[Webpack 5 Module Federation a game changer in javascript architecture](https://indepth.dev/posts/1173/webpack-5-module-federation-a-game-changer-in-javascript-architecture)<br>
