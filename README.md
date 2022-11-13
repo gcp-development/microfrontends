@@ -21,7 +21,7 @@ This enables the following:
 
 <h2>Architecture</h2>
 
-The [Module Federation](https://webpack.js.org/concepts/module-federation/) lets us combine separate builds to form a single application(Host App). This lets us develop and deploy modules independently(Micro App) and combine them at runtime. Any JavaScript application that is bundled with Webpack 5.0(Module Federation is a plugin added to the Webpack) or greater can dynamically load or share code and dependencies with any other at runtime.
+The [Module Federation](https://webpack.js.org/concepts/module-federation/) lets us combine separate builds to form a single application(Host App). This lets us develop and deploy modules independently(Micro App) and combine them at runtime. Any JavaScript application that is bundled with Webpack 5.0 (Module Federation is a plugin added to the Webpack) or greater can dynamically load or share code and dependencies with any other at runtime.
 
 In summary:
 <ul>
