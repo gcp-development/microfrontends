@@ -28,7 +28,9 @@ In summary:
  <li>Module Federation is a plugin that is added to Webpack. This gives you the freedom and flexibility to build our project the way you want.</li>
  <li>It integrates components at Run-Time: We do not have to worry about deployments or dependencies of other micro-frontends.</li>
 </ul>
-
+<br>
+<img src="https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png"></img>
+<br>
 We need to familiarize ourself with some terminology when using Webpack Module Federation:
 <ul>
  <li><b>A host</b>: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
