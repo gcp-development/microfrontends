@@ -18,16 +18,18 @@ This enables the following:
   <li>Helps to overcome the law of diminishing returns</li>
 </ul> 
 
-
 <h2>Architecture</h2>
 
 [Module Federation](https://webpack.js.org/concepts/module-federation/) lets us combine separate builds to form a single application. This lets us develop and deploy modules independently and combine them at runtime. Since modules combine to a single application you can share bundles for third party libraries, events propagate nicely and all parts of the applications have equal references to global browser objects.
 
 ![image](https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png)
 
-
+PoC(Proof of Concept) source code:
+ <ul>
+  <li>[app(Host App)](https://github.com/gcp-development/microfrontends/tree/main/app)</li>
+  <li>[backscreen(Micro App)](https://github.com/gcp-development/microfrontends/tree/main/backscreen)</li>
+  <li>[frontscreen(Micro App)](https://github.com/gcp-development/microfrontends/tree/main/frontscreen)</li>
+</ul> 
 
 References:<br>
 [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)
-
-This PoC(Proof of Concept) was done with the [Module Federation(Webpack.js)](https://webpack.js.org/concepts/module-federation/).
