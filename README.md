@@ -25,7 +25,7 @@ The [Module Federation](https://webpack.js.org/concepts/module-federation/) lets
 
 In summary:
 <ul>
- <li>Module Federation is a plugin that is added to Webpack. This gives you the freedom and flexibility to build our project the way you want.</li>
+ <li>Module Federation is a plugin that is added to Webpack. This gives you the freedom and flexibility to build our project the way we want.</li>
  <li>It integrates components at Run-Time: We do not have to worry about deployments or dependencies of other micro-frontends.</li>
 </ul>
 <br>
