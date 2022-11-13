@@ -15,7 +15,7 @@ This enables the following:
   <li>Fewer communication issues between the multiple teams for one feature change</li>
   <li>Reduced code and testing complexity</li>
   <li>Application is more resilient to non-working or broken portions</li>
-  <li>Faster Feature Rollouts/li>
+  <li>Faster Feature Rollouts</li>
 </ul> 
 
 <h2>Architecture</h2>
