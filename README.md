@@ -26,7 +26,7 @@ This enables the following:
 
 PoC(Proof of Concept) source code:
  <ul>
-  <li>[app(Host App)](https://github.com/gcp-development/microfrontends/tree/main/app)</li>
+  <li> [app(Host App)](https://github.com/gcp-development/microfrontends/tree/main/app) </li>
   <li>[backscreen(Micro App)](https://github.com/gcp-development/microfrontends/tree/main/backscreen)</li>
   <li>[frontscreen(Micro App)](https://github.com/gcp-development/microfrontends/tree/main/frontscreen)</li>
 </ul> 
