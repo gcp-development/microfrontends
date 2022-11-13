@@ -7,7 +7,7 @@ Meaning we should only consider this approach for FinTech of a certain dimension
 
 <h2>Introduction</h2>
 
-The idea behind Micro-Frontends is to think about a website or web app as a composition of features which are owned by independent teams. Each team has a distinct area of business or mission it cares about and specialises in.
+The idea behind [Micro-Frontends](https://micro-frontends.org/) is to think about a website or web app as a composition of features which are owned by independent teams. Each team has a distinct area of business or mission it cares about and specialises in.
 
 Each team would be responsible for the creation of the UI portion of the application, styling, code, layout, architecture, backend, devops, and connection to the database via Rest APIs.  It has its own build and test pipelines and CI/CD procedures. 
 This enables the following:
