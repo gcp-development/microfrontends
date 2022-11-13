@@ -25,6 +25,7 @@ This enables the following:
 
 ![image](https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png)
 
+We need to familiarize ourself with some terminology when using Webpack Module Federation:
 <ul>
  <li><b>A host</b>: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
  <li><b>A remote</b>: another Webpack build, where part of it is being consumed by a “host”</li>
