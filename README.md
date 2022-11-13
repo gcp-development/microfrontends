@@ -32,27 +32,3 @@ In summary:
 <br>
 <img src="https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png"></img>
 <br>
- 
-We need to familiarize ourself with some terminology when using Webpack Module Federation:
-<ul>
- <li><b>A host</b>: a Webpack build that is initialized first during a page load (when the onLoad event is triggered)</li>
- <li><b>A remote</b>: another Webpack build, where part of it is being consumed by a “host”</li>
- <li><b>Bidirectional-hosts</b>: when a bundle or Webpack build can work as a host or as a remote. Either consuming other applications or being consumed by others — at runtime.</li>
- <li><b>Vendor Federation</b>: Vendor Federation is an important feature that aids in solving a significant performance issue in micro-frontend architecture. Regardless of where the modules are loaded from, it enables all or part of a remote or host’s npm modules to share at runtime declaratively.</li>
-</ul>
-
-<h2>Conclusion</h2>
-
-Webpack Module Federation is a feature that enables loading separately compiled applications at runtime and allows sharing of common dependencies.It is a highly beneficial approch to consider, especially with its scalability in sharing code among independent applications, which is bound to improve the overall performance.
-The Module Federation plugin is the perfect candidate to implement a Micro Frontends JavaScript architecture.
- 
-<h3>PoC(Proof of Concept) source code:</h3>
-<ul>
-  <li><a href="https://github.com/gcp-development/microfrontends/tree/main/app" target="_blank">app(Host App)</a></li>
-  <li><a href="https://github.com/gcp-development/microfrontends/tree/main/backscreen" target="_blank">backscreen(Micro App)</a></li>
-  <li><a href="https://github.com/gcp-development/microfrontends/tree/main/frontscreen" target="_blank">frontscreen(Micro App)</a></li>
-</ul> 
-
-References:<br>
-[Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)<br>
-[Why webpack](https://webpack.js.org/concepts/why-webpack/)
