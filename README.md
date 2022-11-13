@@ -21,7 +21,13 @@ This enables the following:
 
 <h2>Architecture</h2>
 
-[Module Federation(Webpack 5)](https://webpack.js.org/concepts/module-federation/) lets us combine separate builds to form a single application(Host App). This lets us develop and deploy modules independently(Micro App) and combine them at runtime. Any JavaScript application that is bundled with Webpack 5.0 or greater can dynamically load or share code and dependencies with any other at runtime.
+The [Module Federation](https://webpack.js.org/concepts/module-federation/) lets us combine separate builds to form a single application(Host App). This lets us develop and deploy modules independently(Micro App) and combine them at runtime. Any JavaScript application that is bundled with Webpack 5.0(Module Federation is a plugin added to the Webpack) or greater can dynamically load or share code and dependencies with any other at runtime.
+
+In summary:
+<ul>
+ <li>Module Federation is a plugin that is added to Webpack. This gives you the freedom and flexibility to build our project the way you want.</li>
+ <li>It integrates components at Run-Time: We do not have to worry about deployments or dependencies of other micro-frontends.</li>
+<ul>
  
 ![image](https://user-images.githubusercontent.com/76512851/201527769-320b41d1-d4c3-4014-8b91-37cd0914abc7.png)
 
@@ -36,7 +42,8 @@ We need to familiarize ourself with some terminology when using Webpack Module F
 <h2>Conclusion</h2>
 
 Webpack Module Federation is a feature that enables loading separately compiled applications at runtime and allows sharing of common dependencies.It is a highly beneficial approch to consider, especially with its scalability in sharing code among independent applications, which is bound to improve the overall performance.
-
+The Module Federation plugin is the perfect candidate to implement a Micro Frontends JavaScript architecture.
+ 
 <h3>PoC(Proof of Concept) source code:</h3>
 <ul>
   <li><a href="https://github.com/gcp-development/microfrontends/tree/main/app" target="_blank">app(Host App)</a></li>
