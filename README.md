@@ -14,8 +14,8 @@ This enables the following:
   <li>Better scaling capabilities of the frontend application</li>
   <li>Fewer communication issues between the multiple teams for one feature change</li>
   <li>Reduced code and testing complexity</li>
-  <li>Aids with the application being more resilient to non-working or broken portions</li>
-  <li>Helps to overcome the law of diminishing returns</li>
+  <li>Application is more resilient to non-working or broken portions</li>
+  <li>Faster Feature Rollouts/li>
 </ul> 
 
 <h2>Architecture</h2>
