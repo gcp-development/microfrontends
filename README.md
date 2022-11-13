@@ -24,6 +24,6 @@ This enables the following:
 
 
 References:<br>
-[micro-frontends](https://martinfowler.com/articles/micro-frontends.html)
+[Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)
 
 This PoC(Proof of Concept) was done with the [Module Federation(Webpack.js)](https://webpack.js.org/concepts/module-federation/).
