@@ -1,5 +1,5 @@
 
-##app(Host App)
+## app(Host App)
 
 Node Version Manager (NVM), as the name implies, is a tool for managing Node versions on your device. Different projects on your device may be using different versions of Node. Using only one version (the one installed by npm ) for these different projects may not give you accurate execution results.
 
