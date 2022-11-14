@@ -1,8 +1,6 @@
 
 ## app(Host App)
 
-Node Version Manager (NVM), as the name implies, is a tool for managing Node versions on your device. Different projects on your device may be using different versions of Node. Using only one version (the one installed by npm ) for these different projects may not give you accurate execution results.
-
 To create a similar project.
 
 ```bash
@@ -11,6 +9,7 @@ npx create-react-app app --template typescript
 cd app
 npm i --save-dev @chakra-ui/react @emotion/react @emotion/styled framer-motion webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader
 ```
+Note:[Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) is used for managing Node versions on our device.
 
 ## [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
