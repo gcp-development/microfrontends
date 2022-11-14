@@ -127,11 +127,10 @@ declare module "frontscreen/Frontscreen" {
 }
 ```
 
-The [Chakra UI](https://chakra-ui.com/) were used in this PoC.
+An example from [Chakra UI](https://chakra-ui.com/) were used in this PoC.
 ![image](https://user-images.githubusercontent.com/76512851/201612438-78fed8c7-fcc8-484f-9931-07d323a172dc.png)
 
-
-
+<hr>
 References:<br>
 [Node.js](https://nodejs.org/en/docs/)<br>
 [Create React App](https://create-react-app.dev/)<br>
