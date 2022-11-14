@@ -18,8 +18,9 @@ In the project directory, you can run:
 
 ## [webpack.config.js](https://webpack.js.org/configuration/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## react-app-env.d.ts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+References:
+[Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
+[Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+[Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
