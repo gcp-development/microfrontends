@@ -106,7 +106,7 @@ module.exports = {
 }
 ```
 
-## react-app-env.d.ts
+## [react-app-env.d.ts](https://www.typescriptlang.org/docs/handbook/declaration-files/templates/global-d-ts.html)
 
 ```bash
 declare module "backscreen/Backscreen" {
