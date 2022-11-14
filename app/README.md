@@ -8,7 +8,7 @@ cd app
 npm i --save-dev @chakra-ui/react @emotion/react @emotion/styled framer-motion webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader
 ```
 
-## tsconfig.json
+## [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 In the project directory, you can run:
 
