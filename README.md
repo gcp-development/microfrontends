@@ -60,3 +60,4 @@ References:<br>
 [Why webpack](https://webpack.js.org/concepts/why-webpack/)<br>
 [Module-Federation examples](https://github.com/module-federation/module-federation-examples)<br>
 [Webpack 5 Module Federation a game changer in javascript architecture](https://indepth.dev/posts/1173/webpack-5-module-federation-a-game-changer-in-javascript-architecture)<br>
+[Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)<br>
