@@ -15,11 +15,85 @@ npm start
 
 ## [webpack.config.js](https://webpack.js.org/configuration/)
 
+```bash
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
+const path = require("path");
+const deps = require("./package.json").dependencies;
+
+module.exports = {
+  entry: "./src/index.tsx",
+  mode: "development",
+  devServer: {
+    port: 8002,
+    open: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
+  },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js"],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx|tsx|ts)$/,
+        loader: "ts-loader",
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  plugins: [
+    new ModuleFederationPlugin({
+      name: "frontscreen",
+      filename: "remoteEntry.js",
+      exposes: {
+        "./Frontscreen": "./src/components/Pricing",
+      },
+      shared: {
+        ...deps,
+        react: { singleton: true, eager: true, requiredVersion: deps.react },
+        "react-dom": {
+          singleton: true,
+          eager: true,
+          requiredVersion: deps["react-dom"],
+        }
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+    }),
+  ],
+};
+```
 
 ## [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
+```bash
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": false,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
+```
 
-To test if we are exposing the component.
+## Exposing the component
 
 ![image](https://user-images.githubusercontent.com/76512851/201611228-4b0d8153-f1b9-4f7f-a03f-909d6e87e2b6.png)
 
