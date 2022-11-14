@@ -12,7 +12,7 @@ npm i --save-dev @chakra-ui/react @emotion/react @emotion/styled framer-motion w
 
 In the project directory, you can run:
 
-## webpack.config.js
+## [webpack.config.js](https://webpack.js.org/configuration/)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
