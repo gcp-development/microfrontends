@@ -12,3 +12,5 @@ Note:[Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) is used for man
 nvm use 16.14.1
 npm start
 ```
+
+![image](https://user-images.githubusercontent.com/76512851/201611228-4b0d8153-f1b9-4f7f-a03f-909d6e87e2b6.png)
