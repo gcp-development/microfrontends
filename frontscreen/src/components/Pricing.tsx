@@ -26,7 +26,7 @@ const Pricing = () => {
     <Box
       maxW='994px'
       margin='auto'
-      mt='-40'
+      mt='-450'
       borderRadius='xl'
       overflow='hidden'
       boxShadow='0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'

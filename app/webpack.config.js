@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const webpack = require("webpack"); // only add this if you don't have yet
+const webpack = require("webpack");
 const { ModuleFederationPlugin } = webpack.container;
-const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const deps = require("./package.json").dependencies;
 
 module.exports = {
