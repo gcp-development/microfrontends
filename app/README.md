@@ -126,9 +126,12 @@ declare module "frontscreen/Frontscreen" {
 	export default Frontscreen;
 }
 ```
+## Final output
 
-An example from [Chakra UI](https://chakra-ui.com/) were used in this PoC.
 ![image](https://user-images.githubusercontent.com/76512851/201612438-78fed8c7-fcc8-484f-9931-07d323a172dc.png)
+
+<br>
+An example from [Chakra UI](https://chakra-ui.com/) were used in this PoC.
 
 <hr>
 
