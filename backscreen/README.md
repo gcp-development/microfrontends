@@ -15,4 +15,7 @@ nvm use 16.14.1
 npm start
 ```
 
+To test if we are exposing the component.
+
 ![image](https://user-images.githubusercontent.com/76512851/201610169-1adae68a-7304-4882-a52e-7941190672df.png)
+
