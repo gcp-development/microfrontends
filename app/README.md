@@ -108,8 +108,19 @@ module.exports = {
 
 ## react-app-env.d.ts
 
+```bash
+declare module "backscreen/Backscreen" {
+	const Backscreen: React.ComponentType;
 
+	export default Backscreen;
+}
 
+declare module "frontscreen/Frontscreen" {
+	const Frontscreen: React.ComponentType;
+
+	export default Frontscreen;
+}
+```
 
 References:<br>
 [Node.js](https://nodejs.org/en/docs/)<br>
